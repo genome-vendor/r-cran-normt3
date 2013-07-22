@@ -1,0 +1,13 @@
+normt3 (1.0-2-2) testing; urgency=low
+
+  * rebuild with NAMESPACE 
+
+ -- Scott Smith <gmt@genome.wustl.edu>  Mon, 22 Jul 2013 15:50:00 +0000
+
+normt3 (1.0-2-1cran1) testing; urgency=low
+
+  * cran2deb svn: 343 with DB version 1.
+
+ -- cran2deb autobuild <cran2deb@gmail.com>  Thu, 17 Feb 2011 21:43:59 +0000
+
+

@@ -1,0 +1,23 @@
+Source: normt3
+Section: gnu-r
+Priority: optional
+Maintainer: cran2deb autobuild <cran2deb@gmail.com>
+Build-Depends: r-base-dev, xvfb, xauth, xfonts-base, r-base-core,
+ debhelper (>> 4.1.0), cdbs
+Standards-Version: 3.9.1
+
+Package: r-cran-normt3
+Architecture: any
+Depends: r-base-core, ${shlibs:Depends}
+Description: GNU R package "Evaluates complex erf, erfc, Faddeeva, and
+ density of sum of Gaussian and Student's t"
+ .
+ Evaluates the probability density function of the sum of the Gaussian
+ and Student's t density on 3 degrees of freedom. Evaluates the p.d.f.
+ of the sphered Student's t density function. Also evaluates the erf,
+ and erfc functions on complex-valued arguments. Thanks to Krishna
+ Myneni the function is calculates the Faddeeva function also!
+ .
+ Author: Guy Nason <g.p.nason@bristol.ac.uk>
+ .
+ Maintainer: Guy Nason <g.p.nason@bristol.ac.uk>
