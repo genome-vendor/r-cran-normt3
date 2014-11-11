@@ -1,4 +1,4 @@
-Source: normt3
+Source: r-cran-normt3
 Section: gnu-r
 Priority: optional
 Maintainer: cran2deb autobuild <cran2deb@gmail.com>
